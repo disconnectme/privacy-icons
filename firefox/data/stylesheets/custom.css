@@ -1,0 +1,144 @@
+@font-face {
+  font-family: 'Avenir Next';
+    src: url(../fonts/avenir/e9167238-3b3f-4813-a04a-a384394eed42.eot?#iefix);
+    src: url(../fonts/avenir/e9167238-3b3f-4813-a04a-a384394eed42.eot?#iefix) format('eot'), url(../fonts/avenir/1e9892c0-6927-4412-9874-1b82801ba47a.woff) format('woff'), url(../fonts/avenir/46cf1067-688d-4aab-b0f7-bd942af6efd8.ttf) format('truetype'), url(../fonts/avenir/52a192b1-bea5-4b48-879f-107f009b666f.svg#52a192b1-bea5-4b48-879f-107f009b666f) format('svg');
+}
+
+body {
+  padding-top: 20px;
+}
+
+div.wrap {
+  width: 960px;
+  margin: 0 auto;
+}
+
+div.dark {
+  background: #2b2b2b;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  padding: 10px;
+  position: relative;
+}
+
+div.dark image, div.dark h1 {
+  display: inline-block;
+}
+
+div.dark h1 {
+  color: #cccccc;
+  color: #fff;
+  position: absolute;
+  left: 56px;
+  top: -3px;
+  font-size: 24px;
+
+}
+
+div.gray {
+  background: #efefef;
+  padding: 10px;
+}
+
+div.gray h2 {
+  margin: 0;
+  color: #888;
+  font-size: 18px;
+}
+
+input, body, html, div {
+    font-family: 'Avenir Next', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+.dropdown, div.gray {
+  border-left: 1px solid rgb(178,178,178);
+  border-right: 1px solid rgb(178,178,178);
+}
+
+.icon_desc_li li {
+  margin: 0; 
+  font-size: 1em;
+  list-style: none; 
+  text-align: left;
+  padding: 15px 0;
+  text-indent: 8px;
+  background-color: white;
+  border-bottom: 1px dashed rgb(178,178,178);
+  cursor: pointer;
+}
+
+.icon_desc_li li:last-child {
+  border-bottom: 0px;
+}
+
+.icon_desc_li {
+  display: block;
+  list-style: none;
+  padding: 10px;
+  margin: 0;
+}
+
+.icon_desc {
+  color: #999;
+  margin-top: 5px;
+}
+
+span.title {
+  color: #5f5f5f;
+}
+
+.bottom {
+  background: #009548;
+  -webkit-border-radius: 3px;
+  border-radius: 3px;
+  color: #fff;
+  text-align: center;
+  font-family: 'Avenir Next',sans-serif;
+  font-size: 20px;
+}
+
+input[type=checkbox] {
+  display:none;
+}
+
+input[type=checkbox] + label {
+  padding-left:5px;
+  height:11px; 
+  display:inline-block;
+  line-height:11px;
+  background-repeat:no-repeat;
+  background-position: 0 0;
+  font-size:11px;
+  vertical-align:middle;
+  cursor:pointer;
+  position: relative;
+  top: -3px;
+
+}
+
+input[type=checkbox]:checked + label {
+  background-position: 0 -11px;
+}
+
+label {
+  background-image:url(../images/custom_checkbox.png);
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  display: inline-block;
+  width: 11px;
+  height: 11px;
+}
+
+button#save {
+  cursor: pointer;
+  width: 100%;
+  padding: 15px;
+  border: 0px;
+  border-top-right-radius: 0px;
+  border-top-left-radius: 0px;
+  margin-top: 0;
+}

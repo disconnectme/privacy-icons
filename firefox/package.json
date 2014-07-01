@@ -1,0 +1,14 @@
+{
+  "id": "privacy_icons@disconnect.me",
+  "version": "1.0.22",
+  "license": "GPLv3",
+  "name": "privacy_icons",
+  "fullName": "Disconnect Privacy Icons",
+  "description": "Privacy policies are way too complicated. We've simplified them for you.",
+  "author": "Disconnect",
+  "homepage": "https://disconnect.me",
+  "icon": "./data/images/48.png",
+  "permissions": {
+    "private-browsing": true
+  }
+}
