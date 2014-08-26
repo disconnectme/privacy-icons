@@ -72,7 +72,7 @@ function init_variables(options) {
 
 function load_events() {
   pageMod.PageMod({
-    include: [/.*www\.google.*/],
+    include: [/\/\/www\.google/],
     contentScriptWhen: "ready",
     contentStyleFile: [
       self.data.url("stylesheets/google_serp.css"),
